@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servisies",
+  "info": {
+    "singularName": "servisy",
+    "pluralName": "servisies",
+    "displayName": "Сервисы",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "FAQ": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.faq",
+      "required": true
+    },
+    "Prices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "table.table"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "SEO_Title": {
+      "type": "string",
+      "required": true
+    },
+    "SEO_Description": {
+      "type": "text",
+      "required": true
+    },
+    "Slug": {
+      "type": "string",
+      "required": true
+    },
+    "Repair_Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Our_Work": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

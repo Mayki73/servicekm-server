@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ceo_dlya_czens",
+  "info": {
+    "singularName": "ceo-dlya-czen",
+    "pluralName": "ceo-dlya-czens",
+    "displayName": "CEO для цен"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SEO_Title": {
+      "type": "string",
+      "required": true
+    },
+    "SEO_Description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

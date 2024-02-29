@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seo_dlya_remontas",
+  "info": {
+    "singularName": "seo-dlya-remonta",
+    "pluralName": "seo-dlya-remontas",
+    "displayName": "СЕО для ремонта"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SEO_Title": {
+      "type": "string",
+      "required": true
+    },
+    "SEO_Description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

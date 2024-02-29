@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seo_dlya_glavnojs",
+  "info": {
+    "singularName": "seo-dlya-glavnoj",
+    "pluralName": "seo-dlya-glavnojs",
+    "displayName": "СЕО для главной"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SEO_Title": {
+      "type": "string",
+      "required": true
+    },
+    "SEO_Description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

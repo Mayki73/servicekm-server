@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ceo_dlya_blogas",
+  "info": {
+    "singularName": "ceo-dlya-bloga",
+    "pluralName": "ceo-dlya-blogas",
+    "displayName": "CEO для блога"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SEO_Title": {
+      "type": "string",
+      "required": true
+    },
+    "SEO_Description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

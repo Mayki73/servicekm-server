@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seo_dlya_uslugs",
+  "info": {
+    "singularName": "seo-dlya-uslug",
+    "pluralName": "seo-dlya-uslugs",
+    "displayName": "СЕО для услуг"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SEO_Title": {
+      "type": "string",
+      "required": true
+    },
+    "SEO_Description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "czenies",
+  "info": {
+    "singularName": "czeny",
+    "pluralName": "czenies",
+    "displayName": "Цены",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Prices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "table.table"
+    }
+  }
+}

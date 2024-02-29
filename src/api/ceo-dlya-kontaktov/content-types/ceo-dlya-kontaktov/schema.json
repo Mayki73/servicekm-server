@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ceo_dlya_kontaktovs",
+  "info": {
+    "singularName": "ceo-dlya-kontaktov",
+    "pluralName": "ceo-dlya-kontaktovs",
+    "displayName": "CEO для контактов"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SEO_Title": {
+      "type": "string",
+      "required": true
+    },
+    "SEO_Description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
